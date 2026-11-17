@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ParkMate — Native Android Parking Assistant
 
 ParkMate is a native Android application (Kotlin, Jetpack Compose, Material 3, `compileSdk = 36`, `targetSdk = 36`, `minSdk = 26`) that helps drivers save where they parked manually or automatically when their car's Bluetooth disconnects, attach annotated photos and quick tags/notes, track paid parking timers with reminders, and navigate back to their parked car.
@@ -82,3 +83,6 @@ ParkMate is a native Android application (Kotlin, Jetpack Compose, Material 3, `
 7. **Romanian Localization & Dark Theme**
    - Switch your Android device language to **Română (Romanian)** in System Settings: all UI copy, tags, and notifications translate via `values-ro/strings.xml`.
    - Toggle Android **Dark theme** in System Display Settings to verify the dark token palette.
+=======
+# ParkMate
+>>>>>>> 967cec606be8c6de5498ddee4a844c4f5db37654
