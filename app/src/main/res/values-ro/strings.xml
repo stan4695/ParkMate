@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ParkMate</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_map">Hartă</string>
+    <string name="nav_spots">Locuri</string>
+    <string name="nav_settings">Setări</string>
+
+    <!-- Common -->
+    <string name="cd_go_back">Înapoi</string>
+    <string name="cd_close">Închide</string>
+    <string name="cd_more_options">Mai multe opțiuni</string>
+    <string name="action_cancel">Anulează</string>
+    <string name="action_confirm">Confirmă</string>
+    <string name="action_save">Salvează</string>
+    <string name="action_edit">Editează</string>
+    <string name="action_delete">Șterge</string>
+    <string name="action_allow">Permite</string>
+    <string name="action_not_now">Nu acum</string>
+    <string name="action_open_settings">Deschide Setările</string>
+
+    <!-- Home Map Screen -->
+    <string name="cd_reset_map_orientation">Resetează orientarea hărții</string>
+    <string name="cd_center_my_location">Centrează pe locația mea</string>
+    <string name="home_no_spot_title">Niciun loc de parcare activ</string>
+    <string name="home_no_spot_subtitle">Apasă mai jos când parchezi sau ține apăsat oriunde pe hartă</string>
+    <string name="home_park_here">Parchează aici</string>
+    <string name="home_save_new_spot">Salvează loc nou</string>
+    <string name="home_custom_pin_eyebrow">LOCAȚIE SELECTATĂ PE HARTĂ</string>
+    <string name="home_custom_pin_save_btn">Salvează locul la pinul selectat</string>
+    <string name="home_guide_me">Ghidează-mă</string>
+    <string name="home_parked_just_now">Parcat chiar acum</string>
+    <string name="home_parked_minutes_ago">Parcat acum %1$d min</string>
+    <string name="home_parked_hours_minutes_ago">Parcat acum %1$dh %2$dm</string>
+    <string name="home_distance_meters">%1$d m</string>
+    <string name="home_distance_km">%1$.1f km</string>
+    <string name="home_walk_minutes">%1$d min pe jos</string>
+    <string name="home_about_walk_minutes">Aprox. %1$d min pe jos</string>
+    <string name="home_distance_away_meters">La %1$d m distanță</string>
+    <string name="home_distance_away_km">La %1$.1f km distanță</string>
+    <string name="home_saving_location">Se salvează locația curentă…</string>
+    <string name="home_location_fallback_coords">Lat %1$.5f, Lng %2$.5f</string>
+    <string name="home_error_no_gps">Semnal GPS indisponibil. Se utilizează ultima locație cunoscută.</string>
+
+    <!-- Quick Save Sheet -->
+    <string name="quick_save_title">Loc salvat</string>
+    <string name="quick_save_add_photo">Adaugă foto</string>
+    <string name="quick_save_add_photo_sub">Fotografiază un stâlp, semn sau intrarea</string>
+    <string name="quick_save_add_note">Adaugă notă</string>
+    <string name="quick_save_add_note_sub">Notează un detaliu ușor de reținut</string>
+    <string name="quick_save_skip">Omite momentan</string>
+    <string name="quick_save_skip_sub">Poți adăuga detalii mai târziu</string>
+
+    <!-- Camera Permission & Capture & Review -->
+    <string name="camera_perm_title">Permite accesul la cameră</string>
+    <string name="camera_perm_subtitle">Fă o fotografie rapidă pentru a găsi mai ușor locul de parcare.</string>
+    <string name="camera_perm_denied_settings">Permisiunea camerei a fost refuzată permanent. Activeaz-o din setări sau alege din galerie.</string>
+    <string name="camera_hint">Surprinde numărul unui stâlp sau un indicator</string>
+    <string name="cd_close_camera">Închide camera</string>
+    <string name="cd_toggle_flash">Comută blițul</string>
+    <string name="cd_open_gallery">Deschide galeria</string>
+    <string name="cd_take_photo">Fă fotografia</string>
+    <string name="cd_flip_camera">Schimbă camera</string>
+    <string name="camera_unavailable">Camera nu este disponibilă pe acest dispozitiv. Folosește galeria sau fotografia demonstrativă.</string>
+    <string name="camera_use_placeholder">Salvează foto demonstrativă</string>
+
+    <!-- Photo Review -->
+    <string name="review_title">Verifică fotografia</string>
+    <string name="review_help">Atinge sau trage pentru a adăuga marcaje. Trage de capete sau folosește + / - pentru a muta și redimensiona.</string>
+    <string name="review_retake">Refă</string>
+    <string name="review_use_photo">Folosește foto</string>
+    <string name="review_clear_annotations">Șterge marcajele</string>
+    <string name="review_text_prompt_title">Adaugă etichetă text</string>
+    <string name="review_text_prompt_hint">Ex: Stâlp C4, Nivel -2</string>
+    <string name="cd_annotation_arrow">Folosește săgeată</string>
+    <string name="cd_annotation_circle">Folosește cerc</string>
+    <string name="cd_annotation_text">Folosește text</string>
+    <string name="cd_shrink_annotation">Micșorează</string>
+    <string name="cd_enlarge_annotation">Mărește</string>
+
+    <!-- Add / Edit Details -->
+    <string name="add_details_eyebrow">LOC SALVAT</string>
+    <string name="add_details_title">Adaugă detalii</string>
+    <string name="edit_details_title">Editează detalii</string>
+    <string name="details_photos_heading">Fotografii</string>
+    <string name="details_photos_count">%1$d din 4</string>
+    <string name="details_add_photo_btn">Adaugă</string>
+    <string name="cd_remove_photo">Șterge fotografia</string>
+    <string name="details_quick_tags_heading">Etichete rapide</string>
+    <string name="details_quick_tags_sub">Selectează tot ce se aplică</string>
+    <string name="details_note_heading">Notă</string>
+    <string name="details_note_counter">%1$d/200</string>
+    <string name="details_note_placeholder">Orice detaliu care te ajută să găsești mașina</string>
+
+    <!-- Quick Tags -->
+    <string name="tag_level_minus_1">Nivel -1</string>
+    <string name="tag_level_minus_2">Nivel -2</string>
+    <string name="tag_zone_a">Zona A</string>
+    <string name="tag_zone_b">Zona B</string>
+    <string name="tag_row_14">Rândul 14</string>
+    <string name="tag_pillar_c4">Stâlp C4</string>
+    <string name="tag_near_elevator">Lângă lift</string>
+    <string name="tag_near_exit">Lângă ieșire</string>
+
+    <!-- Spot Details / Read Mode -->
+    <string name="spot_details_eyebrow">PARCARE CURENTĂ</string>
+    <string name="spot_details_history_eyebrow">PARCARE SALVATĂ</string>
+    <string name="spot_details_title">Detalii loc</string>
+    <string name="spot_status_active">Activ</string>
+    <string name="spot_status_past">Istoric</string>
+    <string name="spot_photo_entrance_badge">Intrare parcare</string>
+    <string name="spot_parking_note_label">Notă parcare</string>
+    <string name="spot_note_eyebrow">NOTĂ</string>
+    <string name="spot_no_note">Nicio notă adăugată încă.</string>
+    <string name="spot_your_car_eyebrow">MAȘINA TA</string>
+    <string name="spot_no_photo_title">Adaugă o fotografie pentru a-ți aminti unde ai parcat</string>
+    <string name="spot_delete_confirm_title">Ștergi locul de parcare?</string>
+    <string name="spot_delete_confirm_body">Această acțiune va șterge definitiv locul de parcare și fotografiile atașate.</string>
+
+    <!-- Paid Parking Timer -->
+    <string name="timer_almost_expired">Expiră curând</string>
+    <string name="timer_expired_badge">Expirat</string>
+    <string name="timer_active_badge">Cronometru activ</string>
+    <string name="timer_not_started_badge">Nepornit</string>
+    <string name="timer_min_left">min rămase</string>
+    <string name="timer_paid_parking">Parcare cu plată</string>
+    <string name="timer_expires_at">Expiră la %1$s</string>
+    <string name="timer_not_set">Apasă +15 sau +30 min pentru a porni</string>
+    <string name="timer_add_15">+15 min</string>
+    <string name="timer_add_30">+30 min</string>
+    <string name="timer_stop">Resetează</string>
+    <string name="timer_remind_me">Amintește-mi</string>
+    <string name="timer_remind_me_sub">Cu 10 minute înainte de expirare</string>
+
+    <!-- Photo Viewer -->
+    <string name="viewer_page_indicator">%1$d / %2$d</string>
+    <string name="viewer_pinch_to_zoom">Apropie degetele pentru zoom</string>
+    <string name="cd_close_photo">Închide fotografia</string>
+    <string name="cd_share_photo">Distribuie fotografia</string>
+
+    <!-- Guide Me Screen -->
+    <string name="guide_eyebrow">NAVIGARE PIETONALĂ</string>
+    <string name="guide_title">Ghidare spre mașină</string>
+    <string name="guide_bearing_label">Direcție %1$d° (%2$s)</string>
+    <string name="guide_sensor_unavailable">Senzorul busolă este indisponibil — se afișează direcția statică</string>
+    <string name="guide_open_google_maps">Deschide în Google Maps</string>
+    <string name="guide_arrived">Ai ajuns lângă mașina ta!</string>
+    <string name="guide_arrived_subtitle">Te afli exact la locul de parcare salvat</string>
+
+    <!-- History / Spots Screen -->
+    <string name="history_eyebrow">LOCURILE TALE</string>
+    <string name="history_title">Istoric parcări</string>
+    <string name="history_section_recent">RECENTE</string>
+    <string name="history_clear_all">Șterge istoricul</string>
+    <string name="history_clear_confirm_title">Ștergi tot istoricul de parcare?</string>
+    <string name="history_clear_confirm_body">Toate locurile salvate și fotografiile vor fi eliminate.</string>
+    <string name="history_empty_title">Niciun loc salvat încă</string>
+    <string name="history_empty_subtitle">Istoricul parcărilor va apărea aici după ce salvezi prima locație.</string>
+    <string name="history_load_examples">Vezi exemple de istoric</string>
+    <string name="history_filter_empty">Stare goală</string>
+    <string name="history_filter_show">Arată istoricul</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_eyebrow">PARKMATE</string>
+    <string name="settings_title">Setări</string>
+    <string name="settings_section_car">MAȘINĂ CONECTATĂ</string>
+    <string name="settings_no_car_selected">Niciun Bluetooth auto selectat</string>
+    <string name="settings_car_connected_sub">Dispozitiv audio auto asociat</string>
+    <string name="settings_car_tap_to_choose">Apasă mai jos pentru a alege dintre dispozitivele asociate</string>
+    <string name="settings_auto_save_title">Salvare automată loc</string>
+    <string name="settings_auto_save_sub">Când Bluetooth se deconectează</string>
+    <string name="settings_choose_device">Alege alt dispozitiv</string>
+    <string name="settings_section_preferences">PREFERINȚE</string>
+    <string name="settings_notifications_title">Notificări</string>
+    <string name="settings_notifications_sub">Cronometre și mementouri</string>
+    <string name="settings_location_access_title">Acces la locație</string>
+    <string name="settings_location_allowed_always">Permis tot timpul</string>
+    <string name="settings_location_allowed_foreground">În timpul utilizării aplicației</string>
+    <string name="settings_location_not_allowed">Nepermis</string>
+    <string name="settings_bluetooth_access_title">Acces Bluetooth</string>
+    <string name="settings_bluetooth_allowed">Dispozitive asociate permise</string>
+    <string name="settings_bluetooth_not_allowed">Permisiune necesară</string>
+    <string name="settings_status_allowed">Permis</string>
+    <string name="settings_status_limited">În aplicație</string>
+    <string name="settings_status_denied">Acordă</string>
+    <string name="settings_privacy_note">Locația ta rămâne privată și este folosită doar pentru a-ți aminti unde ai parcat.</string>
+
+    <!-- Bluetooth Picker & Permission Rationales -->
+    <string name="bt_picker_title">Selectează dispozitivul Bluetooth al mașinii</string>
+    <string name="bt_picker_empty">Nu s-au găsit dispozitive Bluetooth asociate. Asociază mai întâi mașina în setările Android.</string>
+    <string name="bt_rationale_title">Permisiuni salvare automată</string>
+    <string name="bt_rationale_fg_location">Pasul 1: ParkMate are nevoie de acces la locație în prim-plan pentru a prelua coordonatele când parchezi.</string>
+    <string name="bt_rationale_bg_location">Pasul 2: Permite accesul la locație „Tot timpul” în setări pentru ca ParkMate să salveze automat locul când Bluetooth-ul mașinii se deconectează.</string>
+    <string name="bt_rationale_bluetooth">Pasul 3: Permite accesul la Dispozitive din apropiere (Bluetooth Connect) pentru a recunoaște mașina ta.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_timer_name">Alerte Cronometru Parcare</string>
+    <string name="notif_channel_timer_desc">Mementouri înainte și la expirarea parcării cu plată</string>
+    <string name="notif_channel_autosave_name">Parcare Salvată Automat</string>
+    <string name="notif_channel_autosave_desc">Notificări când locul de parcare este salvat automat</string>
+    <string name="notif_timer_warning_title">Parcarea expiră în 10 minute</string>
+    <string name="notif_timer_warning_body">Parcarea cu plată de la %1$s expiră curând. Apasă pentru detalii sau prelungire.</string>
+    <string name="notif_timer_expired_title">Parcarea cu plată a expirat</string>
+    <string name="notif_timer_expired_body">Cronometrul de parcare de la %1$s s-a încheiat.</string>
+    <string name="notif_autosave_title">Loc salvat automat</string>
+    <string name="notif_autosave_body">Locația de parcare de la %1$s a fost salvată după deconectarea Bluetooth.</string>
+</resources>

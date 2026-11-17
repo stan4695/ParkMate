@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ParkMate</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_map">Map</string>
+    <string name="nav_spots">Spots</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="cd_go_back">Go back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_more_options">More options</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_open_settings">Open Settings</string>
+
+    <!-- Home Map Screen -->
+    <string name="cd_reset_map_orientation">Reset map orientation</string>
+    <string name="cd_center_my_location">Center on my location</string>
+    <string name="home_no_spot_title">No active parking spot</string>
+    <string name="home_no_spot_subtitle">Tap below when you park, or long-press any point on the map</string>
+    <string name="home_park_here">Park here</string>
+    <string name="home_save_new_spot">Save new spot</string>
+    <string name="home_custom_pin_eyebrow">SELECTED MAP LOCATION</string>
+    <string name="home_custom_pin_save_btn">Save spot at selected pin</string>
+    <string name="home_guide_me">Guide me</string>
+    <string name="home_parked_just_now">Parked just now</string>
+    <string name="home_parked_minutes_ago">Parked %1$d min ago</string>
+    <string name="home_parked_hours_minutes_ago">Parked %1$dh %2$dm ago</string>
+    <string name="home_distance_meters">%1$d m</string>
+    <string name="home_distance_km">%1$.1f km</string>
+    <string name="home_walk_minutes">%1$d min walk</string>
+    <string name="home_about_walk_minutes">About %1$d min walk</string>
+    <string name="home_distance_away_meters">%1$d m away</string>
+    <string name="home_distance_away_km">%1$.1f km away</string>
+    <string name="home_saving_location">Saving current location…</string>
+    <string name="home_location_fallback_coords">Lat %1$.5f, Lng %2$.5f</string>
+    <string name="home_error_no_gps">Could not get GPS fix. Using last known or map center coordinates.</string>
+
+    <!-- Quick Save Sheet -->
+    <string name="quick_save_title">Spot saved</string>
+    <string name="quick_save_add_photo">Add photo</string>
+    <string name="quick_save_add_photo_sub">Capture a pillar, sign, or entrance</string>
+    <string name="quick_save_add_note">Add note</string>
+    <string name="quick_save_add_note_sub">Write down a detail you\'ll remember</string>
+    <string name="quick_save_skip">Skip for now</string>
+    <string name="quick_save_skip_sub">You can add details later</string>
+
+    <!-- Camera Permission & Capture & Review -->
+    <string name="camera_perm_title">Allow camera access</string>
+    <string name="camera_perm_subtitle">Take a quick photo to make your parking spot easier to find.</string>
+    <string name="camera_perm_denied_settings">Camera permission was permanently denied. Enable it in system settings or pick from gallery.</string>
+    <string name="camera_hint">Capture a pillar number or sign</string>
+    <string name="cd_close_camera">Close camera</string>
+    <string name="cd_toggle_flash">Toggle flash</string>
+    <string name="cd_open_gallery">Open gallery</string>
+    <string name="cd_take_photo">Take photo</string>
+    <string name="cd_flip_camera">Flip camera</string>
+    <string name="camera_unavailable">Camera unavailable on this device. Use gallery or placeholder capture.</string>
+    <string name="camera_use_placeholder">Capture sample photo</string>
+
+    <!-- Photo Review -->
+    <string name="review_title">Review photo</string>
+    <string name="review_help">Tap or drag to add marks. Drag handles or use + / - to move and resize.</string>
+    <string name="review_retake">Retake</string>
+    <string name="review_use_photo">Use photo</string>
+    <string name="review_clear_annotations">Clear marks</string>
+    <string name="review_text_prompt_title">Add text label</string>
+    <string name="review_text_prompt_hint">E.g. Pillar C4, Level -2</string>
+    <string name="cd_annotation_arrow">Use arrow annotation</string>
+    <string name="cd_annotation_circle">Use circle annotation</string>
+    <string name="cd_annotation_text">Use text annotation</string>
+    <string name="cd_shrink_annotation">Make smaller</string>
+    <string name="cd_enlarge_annotation">Make larger</string>
+
+    <!-- Add / Edit Details -->
+    <string name="add_details_eyebrow">SAVED SPOT</string>
+    <string name="add_details_title">Add details</string>
+    <string name="edit_details_title">Edit details</string>
+    <string name="details_photos_heading">Photos</string>
+    <string name="details_photos_count">%1$d of 4</string>
+    <string name="details_add_photo_btn">Add</string>
+    <string name="cd_remove_photo">Remove photo</string>
+    <string name="details_quick_tags_heading">Quick tags</string>
+    <string name="details_quick_tags_sub">Select all that apply</string>
+    <string name="details_note_heading">Note</string>
+    <string name="details_note_counter">%1$d/200</string>
+    <string name="details_note_placeholder">Anything that helps you find it</string>
+
+    <!-- Quick Tags -->
+    <string name="tag_level_minus_1">Level -1</string>
+    <string name="tag_level_minus_2">Level -2</string>
+    <string name="tag_zone_a">Zone A</string>
+    <string name="tag_zone_b">Zone B</string>
+    <string name="tag_row_14">Row 14</string>
+    <string name="tag_pillar_c4">Pillar C4</string>
+    <string name="tag_near_elevator">Near elevator</string>
+    <string name="tag_near_exit">Near exit</string>
+
+    <!-- Spot Details / Read Mode -->
+    <string name="spot_details_eyebrow">CURRENT PARKING</string>
+    <string name="spot_details_history_eyebrow">SAVED PARKING</string>
+    <string name="spot_details_title">Spot details</string>
+    <string name="spot_status_active">Active</string>
+    <string name="spot_status_past">Past</string>
+    <string name="spot_photo_entrance_badge">Parking entrance</string>
+    <string name="spot_parking_note_label">Parking note</string>
+    <string name="spot_note_eyebrow">NOTE</string>
+    <string name="spot_no_note">No note added yet.</string>
+    <string name="spot_your_car_eyebrow">YOUR CAR</string>
+    <string name="spot_no_photo_title">Add a photo to remember where you parked</string>
+    <string name="spot_delete_confirm_title">Delete parking spot?</string>
+    <string name="spot_delete_confirm_body">This will permanently remove this parking spot and its photos.</string>
+
+    <!-- Paid Parking Timer -->
+    <string name="timer_almost_expired">Almost expired</string>
+    <string name="timer_expired_badge">Expired</string>
+    <string name="timer_active_badge">Timer active</string>
+    <string name="timer_not_started_badge">Not started</string>
+    <string name="timer_min_left">min left</string>
+    <string name="timer_paid_parking">Paid parking</string>
+    <string name="timer_expires_at">Expires at %1$s</string>
+    <string name="timer_not_set">Tap +15 or +30 min to start timer</string>
+    <string name="timer_add_15">+15 min</string>
+    <string name="timer_add_30">+30 min</string>
+    <string name="timer_stop">Reset</string>
+    <string name="timer_remind_me">Remind me</string>
+    <string name="timer_remind_me_sub">10 minutes before expiry</string>
+
+    <!-- Photo Viewer -->
+    <string name="viewer_page_indicator">%1$d / %2$d</string>
+    <string name="viewer_pinch_to_zoom">Pinch to zoom</string>
+    <string name="cd_close_photo">Close photo</string>
+    <string name="cd_share_photo">Share photo</string>
+
+    <!-- Guide Me Screen -->
+    <string name="guide_eyebrow">WALKING NAVIGATION</string>
+    <string name="guide_title">Guide to car</string>
+    <string name="guide_bearing_label">Bearing %1$d° (%2$s)</string>
+    <string name="guide_sensor_unavailable">Compass sensor unavailable — showing static bearing</string>
+    <string name="guide_open_google_maps">Open in Google Maps</string>
+    <string name="guide_arrived">You are right next to your car!</string>
+    <string name="guide_arrived_subtitle">You have reached your saved parking location</string>
+
+    <!-- History / Spots Screen -->
+    <string name="history_eyebrow">YOUR SPOTS</string>
+    <string name="history_title">Parking history</string>
+    <string name="history_section_recent">RECENT</string>
+    <string name="history_clear_all">Clear history</string>
+    <string name="history_clear_confirm_title">Clear all parking history?</string>
+    <string name="history_clear_confirm_body">All saved parking spots and photos will be removed.</string>
+    <string name="history_empty_title">No saved spots yet</string>
+    <string name="history_empty_subtitle">Your parking history will appear here after you save your first location.</string>
+    <string name="history_load_examples">View example history</string>
+    <string name="history_filter_empty">Empty state</string>
+    <string name="history_filter_show">Show history</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_eyebrow">PARKMATE</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_car">CONNECTED CAR</string>
+    <string name="settings_no_car_selected">No car Bluetooth selected</string>
+    <string name="settings_car_connected_sub">Paired car audio device</string>
+    <string name="settings_car_tap_to_choose">Tap below to pick from paired devices</string>
+    <string name="settings_auto_save_title">Auto-save spot</string>
+    <string name="settings_auto_save_sub">When Bluetooth disconnects</string>
+    <string name="settings_choose_device">Choose another device</string>
+    <string name="settings_section_preferences">PREFERENCES</string>
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_notifications_sub">Timers and reminders</string>
+    <string name="settings_location_access_title">Location access</string>
+    <string name="settings_location_allowed_always">Allowed all the time</string>
+    <string name="settings_location_allowed_foreground">While using the app</string>
+    <string name="settings_location_not_allowed">Not allowed</string>
+    <string name="settings_bluetooth_access_title">Bluetooth access</string>
+    <string name="settings_bluetooth_allowed">Bonded devices allowed</string>
+    <string name="settings_bluetooth_not_allowed">Permission required</string>
+    <string name="settings_status_allowed">Allowed</string>
+    <string name="settings_status_limited">Foreground</string>
+    <string name="settings_status_denied">Grant</string>
+    <string name="settings_privacy_note">Your location stays private and is only used to remember where you parked.</string>
+
+    <!-- Bluetooth Picker & Permission Rationales -->
+    <string name="bt_picker_title">Select car Bluetooth device</string>
+    <string name="bt_picker_empty">No bonded Bluetooth devices found. Pair your car in Android Bluetooth settings first.</string>
+    <string name="bt_rationale_title">Auto-save permissions</string>
+    <string name="bt_rationale_fg_location">Step 1: ParkMate needs foreground location access to read coordinates when you park.</string>
+    <string name="bt_rationale_bg_location">Step 2: Allow \"All the time\" location access in settings so ParkMate can save your spot automatically when your car Bluetooth disconnects while your phone is in your pocket.</string>
+    <string name="bt_rationale_bluetooth">Step 3: Allow Nearby Devices (Bluetooth Connect) so ParkMate can identify your car\'s Bluetooth connection.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_timer_name">Parking Timer Alerts</string>
+    <string name="notif_channel_timer_desc">Reminders before and when paid parking expires</string>
+    <string name="notif_channel_autosave_name">Auto-saved Parking</string>
+    <string name="notif_channel_autosave_desc">Notifications when your parking spot is automatically saved</string>
+    <string name="notif_timer_warning_title">Parking expires in 10 minutes</string>
+    <string name="notif_timer_warning_body">Your paid parking at %1$s expires soon. Tap to view or extend.</string>
+    <string name="notif_timer_expired_title">Paid parking has expired</string>
+    <string name="notif_timer_expired_body">Your parking timer at %1$s has ended.</string>
+    <string name="notif_autosave_title">Spot saved automatically</string>
+    <string name="notif_autosave_body">Saved parking location at %1$s after car Bluetooth disconnected.</string>
+</resources>

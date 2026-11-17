@@ -1,0 +1,48 @@
+package com.parkmate.app.di
+
+import android.content.Context
+import androidx.room.Room
+import com.parkmate.app.data.local.ParkMateDatabase
+import com.parkmate.app.data.local.ParkingSpotDao
+import com.parkmate.app.data.repository.ParkingRepository
+import com.parkmate.app.data.repository.ParkingRepositoryImpl
+import com.parkmate.app.data.repository.SettingsRepository
+import com.parkmate.app.data.repository.SettingsRepositoryImpl
+import dagger.Binds
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
+
+@Module
+@InstallIn(SingletonComponent::class)
+abstract class RepositoryModule {
+
+    @Binds
+    @Singleton
+    abstract fun bindParkingRepository(impl: ParkingRepositoryImpl): ParkingRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindSettingsRepository(impl: SettingsRepositoryImpl): SettingsRepository
+}
+
+@Module
+@InstallIn(SingletonComponent::class)
+object DatabaseModule {
+
+    @Provides
+    @Singleton
+    fun provideDatabase(@ApplicationContext context: Context): ParkMateDatabase =
+        Room.databaseBuilder(
+            context,
+            ParkMateDatabase::class.java,
+            "parkmate.db"
+        ).fallbackToDestructiveMigration().build()
+
+    @Provides
+    fun provideParkingSpotDao(database: ParkMateDatabase): ParkingSpotDao =
+        database.parkingSpotDao()
+}
